@@ -1,0 +1,70 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato';
+  color: #fff;
+  text-shadow: #007931 1px 1px 1px;
+  background-color: #26ba62 !important;
+}
+
+img {
+    display: block;
+    position: relative;
+}
+
+h1 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+
+}
+
+#container {
+  	min-width: 200px;
+  	max-width: 600px;
+  	margin: 0 auto;
+}
+
+.albumCover{
+  width: 200px;
+  height: 200px;
+  background: black;
+  padding: 0.2rem;
+  margin: 1rem 0;
+
+}
+a {
+  text-shadow:none;
+  text-decoration: none;
+  color: purple;
+}
+a:hover {
+      color: #f4cdb7;
+
+}
+audio {
+  display: block;
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 1rem;
+      }
+    h1 {
+          font-size: 1.4rem;
+      }
+    #container {
+        	min-width: 200px;
+        	max-width: 500px;
+        	margin: 0 auto;
+      }
+    img {
+          width: 90%;
+      }
+    }
